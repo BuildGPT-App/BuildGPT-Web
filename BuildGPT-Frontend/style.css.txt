@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #121212;
+  color: white;
+}
+
+.app {
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #bbbbbb;
+}
+
+.welcome {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.input-area {
+  display: flex;
+  margin: 20px 0;
+}
+
+#userInput {
+  flex: 1;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 10px 0 0 10px;
+  border: none;
+}
+
+#sendBtn {
+  padding: 10px;
+  font-size: 1.5rem;
+  background: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+}
+
+.upload-area {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.upload-btn {
+  background: #333;
+  padding: 10px 20px;
+  border-radius: 12px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.9rem;
+}
+
+.chat-box {
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 15px;
+  min-height: 100px;
+  background: #1e1e1e;
+  margin-bottom: 20px;
+}
+
+.featured h2 {
+  margin-top: 30px;
+}
+
+.cards {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+}
+
+.card {
+  background: #1a1a1a;
+  padding: 15px;
+  border-radius: 15px;
+  min-width: 150px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card-btn {
+  background: #007BFF;
+  color: white;
+  border: none;
+  padding: 7px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}

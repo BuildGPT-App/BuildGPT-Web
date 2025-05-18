@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BuildGPT</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <h1>BuildGPT</h1>
+      <p class="subtitle">AI-powered DIY assistant — Build anything!</p>
+    </header>
+
+    <div class="welcome">
+      <h2>Welcome to BuildGPT!</h2>
+      <p>Ask me how to build something or upload an image!</p>
+    </div>
+
+    <div class="input-area">
+      <input type="text" id="userInput" placeholder="How do I build a bookshelf?" />
+      <button id="sendBtn">➤</button>
+    </div>
+
+    <div class="upload-area">
+      <label for="uploadImage" class="upload-btn">📷 Upload an image</label>
+      <input type="file" id="uploadImage" style="display: none" />
+    </div>
+
+    <div class="chat-box" id="chatBox">
+      <!-- Messages will appear here -->
+    </div>
+
+    <div class="featured">
+      <h2>Featured Build Guides</h2>
+      <div class="cards">
+        <div class="card">
+          <img src="assets/bed.png" alt="Bed" />
+          <h3>Bed</h3>
+          <p>Step-by-step instructions for building a bed.</p>
+          <button class="card-btn">View Instructions</button>
+        </div>
+        <div class="card">
+          <img src="assets/chair.png" alt="Chair" />
+          <h3>Chair</h3>
+          <p>Learn to build a sturdy wooden chair in just 5 steps!</p>
+          <button class="card-btn">View Instructions</button>
+        </div>
+        <div class="card">
+          <img src="assets/table.png" alt="Table" />
+          <h3>Table</h3>
+          <p>Build your own simple wooden table.</p>
+          <button class="card-btn">View Instructions</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
